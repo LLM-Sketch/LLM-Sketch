@@ -1,0 +1,22 @@
+name: sketch
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - mmh3
+  - pyshark
+  - scapy
+  - scipy
+  - tqdm
+  - cudatoolkit=11.3
+  - pytorch
+  - torchaudio
+  - torchvision
+  - transformers
+  - peft
+  - scikit-learn
+  - pytorch-cuda=12.1
+  - pybind11
+prefix: /root/miniconda3/envs/sketch
